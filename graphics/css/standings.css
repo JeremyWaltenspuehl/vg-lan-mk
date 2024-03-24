@@ -9,9 +9,10 @@ body{
     justify-items: center;
     align-items: center;
     font-family: 'Azonix', sans-serif;
-    background-image: url(http://localhost:9090/bundles/vg-lan-apex/graphics/assets/Invitational_Background.png);
+    background-image: url(http://localhost:9090/bundles/vg-lan-mk/graphics/assets/Invitational_Background.png);
     background-repeat: no-repeat;
     background-size: contain;
+    grid-template-rows: 0.5fr 0.25fr repeat(2, 1fr);
     color: white;
 }
 
@@ -25,6 +26,9 @@ table{
 .no-top{
     border-top: 0px black solid;
     font-size: 30px;
+}
+.no-side{
+    border-left: 0px black solid;
 }
 td{
     color: white;
